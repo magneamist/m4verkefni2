@@ -1,6 +1,6 @@
 import "./Button.css";
-
-function Button() {
+//add props to button
+function Button({ game }: { game: string }) {
   return (
     <>
       <div className="card">
@@ -8,7 +8,7 @@ function Button() {
           href="https://oskarstalberg.com/Townscaper/#GSB0RARueC6Snc9E0lO5B"
           target="_blank"
         >
-          <button className="button">Try now!</button>
+          <button className="button">Try {game}!</button>
         </a>
       </div>
     </>

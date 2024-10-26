@@ -5,6 +5,6 @@ import Button from "./Button.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <Button />
+    <Button game="Townscraper" />
   </StrictMode>
 );
