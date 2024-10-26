@@ -1,0 +1,16 @@
+
+.button {
+    background-color: #333333;
+    border-radius: 150px;
+    font-size: 96px;
+    border: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  
+  }
+  
+  .button:hover {
+    background-color: #FFB6C1;
+    filter: drop-shadow(0 0 10px #FFB6C1);
+    border: none;
+    color: #333333;
+  }
